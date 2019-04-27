@@ -168,12 +168,12 @@ bot.on(`message`, (message) => {
         .setAuthor(`${bot.user.username}`)
 		.setFooter(`Help`, bot.user.avatarURL)
         .setDescription("Fine I'm a simple musicbot by RHG#0822 *that's only about 300 lines.*")
-        .addField(`${prefix}help`, `Sends this message.`)
-        .addField(`${prefix}play [link|search|playlist]`, `Plays a song in the current channel.`)
-        .addField(`${prefix}skip`, `Skips the current song.`)
-        .addField(`${prefix}stop`, `Stops and drops everything.`)
-        .addField(`${prefix}queue`, `Shows the first 5 songs in the queue.`)
-        .addField(`${prefix}np`, `Shows what is now playing.`);
+        .addField(`${prefix}help`, `傳送此訊息`)
+        .addField(`${prefix}play [link|search|playlist]`, `在所在的頻道撥放歌曲`)
+        .addField(`${prefix}skip`, `跳過當前的歌`)
+        .addField(`${prefix}stop`, `停止且退出.`)
+        .addField(`${prefix}queue`, `顯示列表中五首歌曲.`)
+        .addField(`${prefix}np`, `顯示正在撥放的歌`);
 
       message.channel.send({ embed: em });
       break;
