@@ -167,7 +167,7 @@ bot.on(`message`, (message) => {
         .setColor("0x36393E")
         .setAuthor(`${bot.user.username}`)
 		.setFooter(`Help`, bot.user.avatarURL)
-        .setDescription("Fine I'm a simple musicbot by RHG#0822 *that's only about 300 lines.*")
+        .setDescription("哈囉,我是黑皮的小助手~*")
         .addField(`${prefix}help`, `傳送此訊息`)
         .addField(`${prefix}play [link|search|playlist]`, `在所在的頻道撥放歌曲`)
         .addField(`${prefix}skip`, `跳過當前的歌`)
